@@ -7,7 +7,6 @@ public class CashbackHackServiceTest {
     @org.testng.annotations.Test
     public void testRemain1() {
         CashbackHackService cbHS = new CashbackHackService();
-        cbHS.remain(400);
 
         assertEquals(cbHS.remain(400), 600);
     }
